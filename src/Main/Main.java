@@ -1,5 +1,6 @@
 package Main;
 
+import Inheritance.A;
 import Inheritance.User;
 
 public class Main {
@@ -13,14 +14,17 @@ public class Main {
 //        new User(3);
 
 
-        User user = new User("User");
-        user.maas = 0;
+//        User user = new User("User");
+//        user.maas = 0;
+//
+//
+//        System.out.println(user.name);
+//        System.out.println(user.age);
+//        user.methodInPerson();
+//        user.methodInPersonA();
 
-
-        System.out.println(user.name);
-        System.out.println(user.age);
-        user.methodInPerson();
-        user.methodInPersonA();
+        A a =new A();
+        a.methodInB();
 
     }
 }
